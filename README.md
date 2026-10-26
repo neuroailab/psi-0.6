@@ -13,9 +13,10 @@
 
 <p align="center">
   <a href="https://arxiv.org/abs/2610.32177"><img alt="arXiv" src="https://img.shields.io/badge/arXiv-2610.32177-b31b1b?logo=arxiv&logoColor=white"></a>
+  <a href="https://neuroailab.github.io/psi-website/blog/psi-0-6.html"><img alt="Project website" src="https://img.shields.io/badge/Project-Website-0a66c2?logo=githubpages&logoColor=white"></a>
   <a href="https://huggingface.co/StanfordNeuroAILab"><img alt="Hugging Face model" src="https://img.shields.io/badge/Hugging%20Face-Model-ffd21e?logo=huggingface&logoColor=ffd21e"></a>
   <a href="https://neuroailab.stanford.edu"><img alt="Stanford NeuroAI Lab" src="https://img.shields.io/badge/Stanford-NeuroAI%20Lab-8c1515"></a>
-  <!-- after the launch post: <a href="https://x.com/[handle]/status/[id]"><img alt="X thread" src="https://img.shields.io/badge/Thread-000000?logo=x&logoColor=white"></a> -->
+  <!-- after the launch post: <a href="https://x.com/khai_loong_aw/status/[id]"><img alt="X thread" src="https://img.shields.io/badge/Thread-000000?logo=x&logoColor=white"></a> -->
 </p>
 
 <p align="center">
@@ -39,8 +40,9 @@ representations of geometry and motion, and chains them into **streams of though
 
 <p align="center"><img src="assets/universe.png" width="100%" alt="Capability unification: one model for vision, language, and world modeling"></p>
 
-Images, text, camera pose, depth, flow, and point tracks share one vocabulary and one 8B transformer. Every task is a
-token ordering: perceiving, describing, and simulating become different questions to the same weights.
+Ψ-0.6 combines a vision-language model and a world model: images, text, camera pose, depth, flow, and point tracks
+share one vocabulary and one 8B transformer. Every task is a token ordering: perceiving, describing, and simulating
+become different questions to the same weights.
 
 ### (2) One interface
 
@@ -102,4 +104,4 @@ and 50.8% for a modular expert pipeline (Grounding DINO + SAM 2 + Depth Pro) tha
 Thanks to the [Stanford AI Lab](https://ai.stanford.edu), the [Stanford Vision and Learning Lab](https://svl.stanford.edu),
 [Stanford Marlowe](https://datascience.stanford.edu/marlowe) ([Stanford HAI](https://hai.stanford.edu) and
 [Stanford Data Science](https://datascience.stanford.edu)), and Google's
-[TPU Research Cloud](https://sites.research.google/trc/) for computing support.
+[TPU Research Cloud](https://sites.research.google/trc/) for help and computing support.
